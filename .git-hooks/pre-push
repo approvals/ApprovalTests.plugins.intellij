@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# run all verifications
+./gradlew check testJs
+
+RESULT=$?
+
+exit $RESULT
